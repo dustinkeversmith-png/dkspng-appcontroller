@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "1d22e30ce29b6d07",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fe1dee200ac1317",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8daed1e11e0ac6b4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Documentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Documentation"
+            }
+          },
+          {
+            "id": "4908d3fe43100b23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capabilities/Capabilities.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Capabilities"
+            }
+          },
+          {
+            "id": "dff263da99016abc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workflows/Adding A Sidecar Function.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adding A Sidecar Function"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8fe345c9a4ea851",
+    "type": "split",
+    "children": [
+      {
+        "id": "d05a0f62d770f328",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9fe28af9a79c840",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f7baa46dd036ef5e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "25858947556a36b5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "4ff076f7056f4019",
+    "type": "split",
+    "children": [
+      {
+        "id": "7081f4a8716b8473",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dc6e8ef168e0bff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Workflows/Adding A Sidecar Function.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Adding A Sidecar Function"
+            }
+          },
+          {
+            "id": "d7e85b22d5c2c3c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Notes"
+            }
+          },
+          {
+            "id": "7ca1fab2432c6a8a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5e01498287ae8074",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fca1ed6090b1ea88",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dff263da99016abc",
+  "lastOpenFiles": [
+    "Workflows",
+    "Testing/Multi Smokes.md",
+    "Workflows/Adding A Sidecar Function.md",
+    "Testing/README.md",
+    "Testing/Tests.md",
+    "Testing/Workflow.md",
+    "Documentation.md",
+    "Capabilities/Capabilities.md",
+    "Directory.md",
+    "Modules/Sidecar/Sidecar.md",
+    "Modules/Sidecar",
+    "Modules/Chromium Web Interaction/Chromium Web Interaction.md",
+    "Modules/CDP Client/CDPClient.md",
+    "Modules/Chromium Web Interaction/Remote Debugging.md",
+    "Modules/CDP Client/README",
+    "Modules/CDP Client",
+    "Coding Help/Starting a new Terminal Instance of Running Application.md",
+    "Coding Help/Argument to Bashrc.md",
+    "Coding Help/Bash Directory Helper.md",
+    "Help/Building.md",
+    "Missons/Mission 3.md",
+    "Missons/Mission 4.md",
+    "Missons/Mission 2.md",
+    "Missons/Mission 1.md",
+    "Help/Env Vars.md",
+    "Coding Help/Obsidian Settings.md",
+    "Modules/VLC Interaction/VLC Requests.md",
+    "Modules/VLC Interaction",
+    "Help/AI/Init.md",
+    "Help/AI/Implementation Plan.md",
+    "Modules/Chromium Web Interaction",
+    "Help/AI",
+    "Help/Build",
+    "Help",
+    "Modules",
+    "Capabilities/Capabilities"
+  ]
+}

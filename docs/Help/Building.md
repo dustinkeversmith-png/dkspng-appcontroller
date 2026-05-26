@@ -8,12 +8,11 @@ If you want the full install flow from scratch, use this order:
 # from the repo root  
 npm install  
   
-# optional: run tests  
-npm test  
-  
 # start the Electron app  
 npm run dev
 
+
+# Sidecar Application
 
 cd sidecar/AutomationSidecar  
 dotnet restore  

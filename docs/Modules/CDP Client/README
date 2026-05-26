@@ -1,0 +1,7 @@
+To load any CDP Clients or tests which dont use the side car you must read
+
+Modules/Chromium Web Interaction/Remote Debugging
+
+With this command to start a debuggin session.
+
+Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe"-ArgumentList "--remote-debugging-port=9222","--user-data-dir=C:\temp\chrome-debug","--no-first-run","--no-default-browser-check"

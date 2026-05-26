@@ -1,3 +1,5 @@
+
+
 The top page is on one origin, and the iframe navigates to `rapid-cloud.co`, which is a **different origin**. In Chromium, cross-origin iframes often become **out-of-process iframes (OOPIFs)**. When that happens:
 
 - the iframe element still exists in the parent DOM

@@ -62,6 +62,8 @@ async function smokeHttpJsonClient(): Promise<SmokeResult> {
     timeoutMs: envNum("SMOKE_HTTP_TIMEOUT_MS", 5000),
   });
 
+  
+
   const json = await client.getJson<unknown>(path);
   return {
     name: "HttpJsonClient",
@@ -100,8 +102,6 @@ async function smokeSidecarClient(): Promise<SmokeResult> {
 async function smokeCdpClient(): Promise<SmokeResult> {
   const debugPort = envNum("SMOKE_CHROME_DEBUG_PORT", 9222);
   const versionUrl = `http://127.0.0.1:${debugPort}/json/list`;
-
-
 
   const res = await fetch(versionUrl);
   if (!res.ok) {

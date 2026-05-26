@@ -7,8 +7,6 @@
     "dev": "electron-vite dev",
     "build": "electron-vite build",
     "preview": "electron-vite preview",
-    "test": "vitest run ChromiumDebugAdapter",
-    "test:watch": "vitest",
     "smoke:all": "tsx tests/realEnvironmentSmoke.ts all",
     "smoke:cdp": "tsx tests/realEnvironmentSmoke.ts cdp",
     "smoke:httpjson": "tsx tests/realEnvironmentSmoke.ts httpjson",

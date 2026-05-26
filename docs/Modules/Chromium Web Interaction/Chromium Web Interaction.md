@@ -1,3 +1,11 @@
+
+# Relevant Files
+
+chromiumDebugSmoke.ts
+
+# How to use
+
+
 await adapter.send(sessionId, {  
   type: "querySelector",  
   payload: {  

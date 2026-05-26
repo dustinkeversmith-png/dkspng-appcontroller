@@ -94,6 +94,7 @@ public abstract class UiAppControllerBase : SidecarControllerBase
         };
     }
 
+
     protected virtual object SendKeysToProcess(int processId, string keys, string action)
     {
         WindowAutomation.RestoreAndFocusProcessWindow(processId);

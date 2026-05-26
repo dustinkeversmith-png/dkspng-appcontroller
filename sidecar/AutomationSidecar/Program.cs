@@ -22,8 +22,7 @@ var jsonOptions = new JsonSerializerOptions
 
 
 
-var controllers = new ControllerRegistry()
-    .Register(new BitTorrentController(uia, jsonOptions));
+var controllers = new ControllerRegistry();
 
 string? line;
 while ((line = Console.ReadLine()) != null)
@@ -74,7 +73,8 @@ while ((line = Console.ReadLine()) != null)
 
 async Task<object?> DispatchToControllerAsync(CommandEnvelope cmd)
 {
-    var controller = controllers.FirstOrDefault(c => c.CanHandle(cmd.method));
+    //var controller = controllers.FirstOrDefault(c => c.CanHandle(cmd.method));
+    var controller = controllers.Resolve(cmd.method);
     if (controller == null)
         throw new InvalidOperationException($"Unknown method: {cmd.method}");
 
